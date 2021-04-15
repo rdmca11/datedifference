@@ -1,7 +1,4 @@
-# datedifference
-datedifference
-
-#Problem Statement
+# Problem Statement
 Create an application that can read in pairs of dates in the following
 format -
 
@@ -19,3 +16,15 @@ Constraints:
 
 The application may not make use of the platform / SDK libraries for date manipulation
 (for example Date, Calendar classes).
+
+# Tech Stack
+* JDK 11
+* jUnit 4
+* Maven
+
+# Build
+Project can be build using maven commands
+> mvn install
+
+# Running the application from command line
+> datediff.DateDifferenceApplication <input file path with pair of dates>
